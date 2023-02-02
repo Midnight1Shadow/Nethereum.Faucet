@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web » >
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);p ortable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+  <Groupe d’éléments>
+    <PackageReference include="Microsoft.ApplicationInsights.AspNetCore » version="2.1.1 » />
+    <PackageReference include="Microsoft.AspNetCore » version="2.0.1 » />
+    <PackageReference include="Microsoft.AspNetCore.Mvc » version="2.0.2 » />
+    <PackageReference include="Microsoft.AspNetCore.StaticFiles » version="2.0.1 » />
+    <PackageReference include="Microsoft.EntityFrameworkCore.Design » version="2.0.1 » />
+    <PackageReference include="Microsoft.EntityFrameworkCore.SqlServer » version="2.0.1 » />
+    <PackageReference include="Microsoft.EntityFrameworkCore.SqlServer.Design » version="1.1.5 » />
+    <PackageReference include="Microsoft.Extensions.Logging.Debug » version="2.0.0 » />
+    <PackageReference include="Microsoft.VisualStudio.Web.BrowserLink » version="2.0.1 » />
+    <PackageReference include="Microsoft.VisualStudio.Web.CodeGeneration.Design » version="2.0.2 » />
+    <PackageReference include="Nethereum.JsonRpc.Client » version="2.2.3 » />
+    <PackageReference include="Nethereum.Web3 » version="2.2.3 » />
+  </Groupe d’éléments>
+  <Groupe d’éléments>
+    <DotNetCliToolReference include="Microsoft.VisualStudio.Web.CodeGeneration.Tools » version="1.0.0 » />
+  </Groupe d’éléments>
+
+</Projet> open.glr
